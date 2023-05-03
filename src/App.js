@@ -35,7 +35,7 @@ function App() {
   React.useEffect(() => {
     let mounted = true;
     if (mounted) { setContentData(contentData); return () => mounted = false; }
-  }, [])
+  })
 
 
 
